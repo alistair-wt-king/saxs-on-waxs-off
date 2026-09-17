@@ -17,6 +17,6 @@ usage: python3 unity.py -is NaOH-Urea_FD_SAXS.dat -iw NaOH-Urea_FD_WAXS.dat -c 0
 
 usage: python3 saxs-waxs-sub.py -i NaOH-Urea_ND_SAXS_combined_cut0p150.xy 1.0 -H Kapton_SAXS_combined_cut0p150.xy 1.0 -s H2O_SAXS_combined_cut0p150_i1p000_H1p000_s0p000_harmonised_0.250_0.450.xy 0.9 -Irange -0.005 0.02
 
-**harmonise.py** is a script for removal of noise or artefacts, over short q-ranges. This uses boundary-based polynomial reconstruction between anchor points, defined with the '-qrange-smooth' flag.
+**harmonise.py** is a script for removal of noise or artefacts, over short q-ranges. This uses boundary-based polynomial reconstruction between anchor points, defined with the '-qrange-smooth' flag. This is not recommended to be used purely for cosmetic reasons.
 
 usage: python3 harmonise.py -i H2O_SAXS_combined_cut0p150_i1p000_H1p000_s0p000.xy -qrange-smooth 0.25 0.45 -log
