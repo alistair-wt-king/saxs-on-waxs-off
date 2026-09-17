@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# Written by Alistair King & Co-Pilot
+
 # Usage - python3 stack-WAXS.py -range 0.5 3 -xy "Q (Å-1)" "Intensity (cm-1)" -rev -files LiBr.3H2O-Dry.xy blue LiBr.3H2O-Wet.xy Magenta NaOH-Urea-Dry.xy Green NaOH-Urea-Wet.xy Orange Pulp-Dry.xy Red
 # bt Alistair WT King
 import sys
