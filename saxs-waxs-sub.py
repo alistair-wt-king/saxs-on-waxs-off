@@ -1,6 +1,5 @@
-
-# Written by Alistair King & Co-Pilot
 #!/usr/bin/env python3
+# Written by Alistair King & Co-Pilot
 
 # Script to subtract sample holder and solvent diffraction intensity from raw SAXS & WAXS data
 # Usage: python3 saxs-waxs-sub.py -i Sample_WAXS.dat 1.0 -H Kapton_WAXS.dat 0.4 -s H2O_WAXS.dat 0.7 -log
