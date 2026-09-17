@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Written by Alistair King & Co-Pilot
 
 # please use the appropriate flags for conversion between the values
 # -2t2q for conversion from 2theta to q
