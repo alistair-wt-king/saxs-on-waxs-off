@@ -7,7 +7,7 @@ Small scripting toolkit for processing SAXS &amp; WAXS data, in particular relat
 **usage**: python3 2theta2q.py -q22t LiBr-3H2O_FD_norm.dat
 
 
-**stack-WAXS.py** is a script for stacking xy patterns for publication images using matplotlib. The range is set with '-range', xy axes titles are set with '-xy', stack order can be reversed with '-rev' and the colours are set with the matplotlib CSS colour palette names (https://matplotlib.org/stable/gallery/color/named_colors.html).
+**stack-WAXS.py** is a script for stacking xy patterns for publication images using matplotlib. The range is set with '-range', xy axes titles are set with '-xy', stack order can be reversed with '-rev' and the colours are set with the matplotlib CSS colour palette names (https://matplotlib.org/stable/gallery/color/named_colors.html). Legend placement can be changed by editing the script itself.
 
 **usage**: python3 stack-WAXS.py -range 5 50 -xy "2Theta (degrees)" "Area Normalised Intensity" -rev -files NaOH-Urea_FD_norm_bs.xy rosybrown NaOH-Urea_ND_norm_bs-scaled.xy lightcoral NaOH-Urea_1Gaussian.xy deeppink NaOH-Urea_2Gaussian.xy magenta NaOH-Urea_3Gaussian.xy blueviolet NaOH-Urea_4Gaussian.xy blue
 
